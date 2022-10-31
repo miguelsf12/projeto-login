@@ -55,4 +55,8 @@ Grandes telas: acima de 1200px
     body {
         background-image: linear-gradient(45deg, #49a09d, #5f2c82);
     }
+
+    div.campo > input {
+        width:calc(100% - 30px);
+    }
 }
